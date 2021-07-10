@@ -1,0 +1,10 @@
+[package]
+name = "prom-test"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+rocket_prometheus = { git = "https://github.com/sd2k/rocket_prometheus", rev = "6412b9d9fa9b71998a9d750aeed2302ed258a6f6" }
